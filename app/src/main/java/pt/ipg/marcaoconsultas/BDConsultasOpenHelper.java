@@ -11,7 +11,7 @@ public class BDConsultasOpenHelper extends SQLiteOpenHelper {
 
 
     public BDConsultasOpenHelper(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, DATABASE_NAME, factory , DATABASE_VERSION);
+        super(context, DATABASE_NAME,null, DATABASE_VERSION);
     }
 
     @Override
